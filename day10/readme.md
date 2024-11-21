@@ -8,7 +8,13 @@ Create two namespaces and name them ns1 and ns2
  
 controlplane $ kubectl create namespace ns1
 namespace/ns1 created
+
+
+
 controlplane $ kubectl create namespace ns2
+
+
+
 namespace/ns2 created
 controlplane $ kubectl get ns
 NAME                 STATUS   AGE
